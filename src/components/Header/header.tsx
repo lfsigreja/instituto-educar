@@ -10,9 +10,9 @@ const Header: React.FC = () => {
         <div className='header-menu'>
           <Link to='/' className='header-menu__link'>Inicio</Link>
           <Link to='/quem-somos' className='header-menu__link'>Quem Somos</Link>
-          <Link to='/' className='header-menu__link'>Contato</Link>
-          <Link to='/' className='header-menu__link'>Blog</Link>
-          <Link to='/' className='header-menu__link contribute'>
+          <Link to='/contato' className='header-menu__link'>Contato</Link>
+          <Link to='/blog' className='header-menu__link'>Blog</Link>
+          <Link to='/contribua' className='header-menu__link contribute'>
               Contribua
             </Link>
         </div>

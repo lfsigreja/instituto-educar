@@ -6,6 +6,7 @@ import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
 
 import Home from "./views/Home/home";
+import Quemsomos from "./views/quem-somos/quemsomos";
 
 const Page = styled.div`
     display: flex;
@@ -19,7 +20,13 @@ const Router: React.FC = () => {
             <BrowserRouter>
                 <Header />
                 <Switch>
-                    <Route path='/' component={Home} />
+                    <Route path='/' exact component={Home} />
+                    <Route path='/quem-somos' component={Quemsomos} />
+                    <Route path='/contato' component={Home} />
+                    <Route path='/blog' component={Home} />
+                    <Route path='/contribua' component={Home} />
+                    <Route path='/quero-ser-voluntario' component={Home} />
+                    <Route path='/quero-ser-aluno' component={Home} />
                 </Switch>
                 <Footer />
             </BrowserRouter>

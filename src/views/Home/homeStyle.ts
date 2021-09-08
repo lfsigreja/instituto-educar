@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.main`
+  flex-grow: 1;
+
   h1 {
       font-size: 50px;
-      height: 100vh;
   }
 `;

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/logo.png'
 
 import { NavBar } from './style';
 
 const Header: React.FC = () => {
   return (
     <NavBar>
-        <div className='header-logo'>Logo</div>
+        <img className='header-logo' src={Logo} alt='Instituto Educar' />
         <div className='header-menu'>
           <Link to='/' className='header-menu__link'>Inicio</Link>
           <Link to='/quem-somos' className='header-menu__link'>Quem Somos</Link>

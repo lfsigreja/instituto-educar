@@ -13,9 +13,8 @@ export const NavBar = styled.header`
 
 
   .header-logo {
-      width: 215px;
-      height: 3.75rem;
-      background-color: grey;
+      width: 22rem;
+      height: 7rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -27,8 +26,9 @@ export const NavBar = styled.header`
 
     a {
         text-decoration: none;
-        color: #1c1c1c;
+        color: #868686;
         margin-left: 3rem;
+        font-weight: 700;
       }
     }
 
@@ -47,6 +47,7 @@ export const NavBar = styled.header`
         width: 9rem;
         padding: 2px;
         background-color: #FFC404;
+        color: #FFFFFF !important;
         padding: 15px;
         border-radius: 15px;
     }

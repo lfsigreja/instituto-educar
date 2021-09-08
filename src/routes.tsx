@@ -26,7 +26,7 @@ const Router: React.FC = () => {
                     <Route path='/blog' component={Home} />
                     <Route path='/contribua' component={Home} />
                     <Route path='/quero-ser-voluntario' component={Home} />
-                    <Route path='/quero-ser-aluno' component={Home} />
+                    <Route path='/quero-ser-aluno' component={Quemsomos} />
                 </Switch>
                 <Footer />
             </BrowserRouter>

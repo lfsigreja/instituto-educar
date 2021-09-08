@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import { Container } from './homeStyle';
 
 const Home: React.FC = () => {

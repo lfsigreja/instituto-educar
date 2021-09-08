@@ -7,7 +7,9 @@ import { NavBar } from './style';
 const Header: React.FC = () => {
   return (
     <NavBar>
-        <img className='header-logo' src={Logo} alt='Instituto Educar' />
+        <Link to='/'>
+          <img className='header-logo' src={Logo} alt='Instituto Educar' />
+        </Link>
         <div className='header-menu'>
           <Link to='/' className='header-menu__link'>Inicio</Link>
           <Link to='/quem-somos' className='header-menu__link'>Quem Somos</Link>

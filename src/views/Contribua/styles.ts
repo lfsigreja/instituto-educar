@@ -35,11 +35,8 @@ export const Container = styled.div`
 
       img {
           margin-bottom: 3rem;
-          background-color: #FFC404;
-          border-radius: 100%;
-          background-size: 1rem;
           height: 240px;
-          width: 170px;
+          width: 240px;
           
       }
 

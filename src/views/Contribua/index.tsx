@@ -6,6 +6,8 @@ import Menina from '../../assets/menina.png'
 
 import { Container } from './styles';
 import { Title } from '../../styles/title';
+import { ParagraphTitle } from '../../styles/paragraphTitle';
+import { Paragraph } from '../../styles/paragraph';
 
 const Contribua: React.FC = () => {
     return (
@@ -23,9 +25,25 @@ const Contribua: React.FC = () => {
             </div>
             <Title>AJUDE DE OUTRAS FORMAS</Title>
             <div className='contribute-donate'>
-                <p>Para fazer parte deste propósito, sua ajuda como doador é de grande importância. Para isso, disponibilizamos a chave PIX e QR Code. Todos os valores doados serão utilizados para o funcionamento da ONG e aporte das crianças e jovens estudantes.  </p>
-                <p>Sua participação é essencial para fazer o projeto crescer! Estamos em constante processo de melhoria e contamos com você para isso. Sugestões, parcerias ou mais informações, pode entrar em contato Direct do Instagram, ou por Whatsapp.</p>
-                <h6>Sua contribuição faz toda diferença!</h6>
+                <ParagraphTitle>QUERO SER DOADOR(A)</ParagraphTitle>
+                <Paragraph>
+                    Mudar o mundo leva tempo. É um processo contínuo. Mas transformando a vida de um desses pequenos girassóis, estamos mudando o mundo deles.
+                </Paragraph>
+                <ParagraphTitle>PARA ONDE VÃO AS DOAÇÕES?</ParagraphTitle>
+                <Paragraph>
+                    Nossa sede está localizada na comunidade de Massaranduba, próximo ao bairro da Ribeira, e o projeto atende até 50 crianças, de diversas regiões da Grande Salvador.  Todas elas recebem um <strong>KIT Leitura, Arte e Educação</strong> e recebem <strong>apoio didático</strong>  para dar vida a seus sonhos através das aulas de música, teatro e demais atividades.
+                </Paragraph>
+                <Paragraph>
+                    O EDUCAR poderia receber ainda mais crianças! Temos uma lista de espera que aumenta a cada dia. Porém, ainda não temos recursos suficientes, por isso precisamos de apoio financeiro, material, bem como voluntários que queiram fazer parte dessa corrente.
+                </Paragraph>
+                <Paragraph>
+                    Você pode ajudar com doações de qualquer valor via <strong>PIX</strong>. Para doar alimentos e outros itens, entre em contato via Whatsapp ou pelo Instagram.
+                </Paragraph>
+                <Paragraph>
+                    Com a sua participação, vamos juntos transformar a vida de cada vez mais crianças, proporcionando um ambiente de acolhimento e inclusão.
+                </Paragraph>
+                <Paragraph>Sua ajuda faz <strong>TODA A DIFERENÇA!</strong></Paragraph>
+                <Paragraph>Contamos com você! 💛</Paragraph>
             </div>
             <div className='contribute-pix'>
                 <div>

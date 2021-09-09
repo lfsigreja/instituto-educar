@@ -24,7 +24,9 @@ const queroSerAluno: React.FC = () => {
                     Bolsa Projeto Social Educar
                 </ParagraphTitle>
                 <Paragraph>Todos os anos o EDUCAR: Espaço de Leitura, Mediação e Formação de Leitor abre vagas para crianças que comprovem vulnerabilidade social. Atualmente temos 50 crianças bolsistas atuantes no projeto e uma lista de espera com mais de 150 crianças.</Paragraph>
-                <Paragraph>É necessário que a família cadastre a criança e participe da seleção.
+                <Paragraph>É necessário que a família cadastre a criança e participe da seleção.</Paragraph>
+                <ParagraphTitle>Documentos necessários (originais e xerox)</ParagraphTitle>
+                <Paragraph>
                     <dl>
                         <dt>Dos responsáveis</dt>
                         <dd>RG;</dd>

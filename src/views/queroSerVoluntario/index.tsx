@@ -21,7 +21,7 @@ const queroSerVoluntario: React.FC = () => {
       <SingUpButton rel="noreferrer" target="_blank" href='https://google.com'>Inscreva-se</SingUpButton>
       <div className='container-content'>
         <Paragraph>
-          Algumas informações para participar como voluntário nas atividades do EDUCAR – Espaço de Leitura, Mediação e Formação de Leitor:
+          Segue algumas informações para participar como voluntário nas atividades do EDUCAR – Espaço de Leitura, Mediação e Formação de Leitor:
         </Paragraph>
         <ParagraphTitle>
           1 – O trabalho será social, voluntário e não remunerado (lei 13.297, de 2016);
@@ -47,8 +47,8 @@ const queroSerVoluntario: React.FC = () => {
             <li>02 fotos coloridas 3X4 idênticas;</li>
             <li>Apresentar cópia do diploma ou atestado de matrícula e frequência ao curso que deseja pleitear vaga para o voluntariado;</li>
             <li><a rel='noreferrer' target='_blank' href='http://www.ba.gov.br/antecedentes/'>Certidão Negativa de antecedentes criminais da Polícia Civil e Polícia Federal;</a></li>
-            <li><a rel='noreferrer' target='_blank' href='https://www.tse.jus.br/eleitor/certidoes/certidao-de-quitacao-eleitoral'>Certidão negativa da Justiça Federal – Estadual e Eleitoral;</a></li>
-            <li><a rel='noreferrer' target='_blank' href='https://sistemas.sefaz.ba.gov.br/sistemas/sigat/Default.Aspx?Modulo=CREDITO&Tela=DocEmissaoCertidaoInternet&limparSessao=1&sts_link_externo=2'>Certidão negativa Estadual e Eleitoral;</a></li>
+            <li><a rel='noreferrer' target='_blank' href='https://www.tse.jus.br/eleitor/certidoes/certidao-de-quitacao-eleitoral'>Certidão negativa da Justiça Federal – Estadual, Eleitoral;</a></li>
+            <li><a rel='noreferrer' target='_blank' href='https://sistemas.sefaz.ba.gov.br/sistemas/sigat/Default.Aspx?Modulo=CREDITO&Tela=DocEmissaoCertidaoInternet&limparSessao=1&sts_link_externo=2'>Certidão negativa Estadual Eleitoral;</a></li>
             <li><a rel='noreferrer' target='_blank' href='http://www5.tjba.jus.br/portal/certidoes-do-1o-grau/'>Certidão negativa de Execuções Penais, Cíveis e Criminais.
             </a></li>
           </ul>

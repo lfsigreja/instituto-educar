@@ -9,6 +9,10 @@ export const Paragraph = styled.p`
     font-size: 24px;
     line-height: 44px;
 
+    strong {
+        font-weight: 700;
+    }
+
     ul {
         padding-left: 55px;
         list-style-type: disc;

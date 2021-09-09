@@ -9,4 +9,5 @@ export const ParagraphTitle = styled.h2`
     font-size: 24px;
     line-height: 44px;
     margin: 10px 0px;
+    padding: 0 8rem;
 `;

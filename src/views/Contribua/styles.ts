@@ -14,14 +14,6 @@ export const Container = styled.div`
       text-align: justify;
       font-size: 1.5rem;
       color: #1C1C1C;
-
-      p {
-          margin-bottom: 24px;
-      }
-      h6 {
-          font-weight: 700;
-          margin-top: 24px;
-      }
   }
 
   .contribute-btn {
@@ -32,6 +24,7 @@ export const Container = styled.div`
       font-family: "Asap", sans-serif;
       font-size: 2.25rem;
       font-weight: bold;
+      transition: all .6s ease-in-out;
 
       img {
           margin-bottom: 3rem;
@@ -52,6 +45,11 @@ export const Container = styled.div`
           color: #868686;
           padding: 1rem;
           border-radius: 15px;
+          transition: all .6s ease-in-out;
+          &:hover {
+            transform: scale(1.3);
+            cursor: pointer;
+          }
       }
   }
 
@@ -59,7 +57,7 @@ export const Container = styled.div`
     font-family: "Asap", sans-serif;
     font-style: normal;
     font-size: 36px;
-    margin:  4rem 0 11rem;
+    margin:  0 0 11rem;
     display: flex;
     justify-content: space-around;
     align-items: center;

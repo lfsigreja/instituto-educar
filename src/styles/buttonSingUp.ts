@@ -9,4 +9,10 @@ export const SingUpButton = styled.a`
       font-size: 2rem;
       padding: 34px 135px;
       border-radius: 15px;
+
+      transition: all .6s ease-in-out;
+      &:hover {
+            transform: scale(1.3);
+            cursor: pointer;
+      }
 `;

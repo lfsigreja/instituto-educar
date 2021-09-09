@@ -15,7 +15,7 @@ const queroSerAluno: React.FC = () => {
                     O Instituto Educar é uma alternativa ou complemento à escola, já que oferece um ambiente voltado a atividades lúdicas e educativas.
                 </Paragraph>
             </div>
-            <SingUpButton rel="noreferrer" target="_blank" href='https://google.com'>Inscreva-se</SingUpButton>
+            <SingUpButton rel="noreferrer" target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScB1bSFFWwIzUj-AtN8_5-iFdq4g-Es6jwLINEfGn7ziIN2Jg/viewform?vc=0&c=0&w=1&flr=0&gxids=7628'>Inscreva-se</SingUpButton>
             <div className='container-content'>
                 <ParagraphTitle>
                     Você pode participar do projeto da seguinte forma:
@@ -64,7 +64,7 @@ const queroSerAluno: React.FC = () => {
                 </Paragraph>
                 <ParagraphTitle>Participação normal TABELA DE VALORES 2021 – EDUCAR</ParagraphTitle>
             </div>
-            <SingUpButton rel="noreferrer" target="_blank" href='https://google.com'>Inscreva-se</SingUpButton>
+            <SingUpButton rel="noreferrer" target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScB1bSFFWwIzUj-AtN8_5-iFdq4g-Es6jwLINEfGn7ziIN2Jg/viewform?vc=0&c=0&w=1&flr=0&gxids=7628'>Inscreva-se</SingUpButton>
             <div className='container-content'></div>
         </Container>
     )

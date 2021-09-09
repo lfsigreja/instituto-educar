@@ -18,7 +18,7 @@ const queroSerVoluntario: React.FC = () => {
           Você, pessoa física ou jurídica, pode participar da nossa rede de voluntários o seu tempo para nos ajudar nessa caminhada no EDUCAR – Espaço de Leitura, Mediação e Formação de Leitor.
         </Paragraph>
       </div>
-      <SingUpButton rel="noreferrer" target="_blank" href='https://google.com'>Inscreva-se</SingUpButton>
+      <SingUpButton rel="noreferrer" target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScMItvLMSHghE-jQDaHzf3tM0b19E5i96hi3k_c5HuFWYCrRQ/viewform'>Inscreva-se</SingUpButton>
       <div className='container-content'>
         <Paragraph>
           Segue algumas informações para participar como voluntário nas atividades do EDUCAR – Espaço de Leitura, Mediação e Formação de Leitor:
@@ -77,7 +77,7 @@ const queroSerVoluntario: React.FC = () => {
           8 – Está previsto, no EDUCAR – Espaço de Leitura, Mediação e Formação de Leitor, que todas as atividades estão sujeitas a produção científica para posterior publicação sem a obrigação de pagamentos aos participantes.
         </ParagraphTitle>
       </div>
-      <SingUpButton rel="noreferrer" target="_blank" href='https://www.google.com'>Inscreva-se</SingUpButton>
+      <SingUpButton rel="noreferrer" target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScMItvLMSHghE-jQDaHzf3tM0b19E5i96hi3k_c5HuFWYCrRQ/viewform'>Inscreva-se</SingUpButton>
     </Container>
   );
 };

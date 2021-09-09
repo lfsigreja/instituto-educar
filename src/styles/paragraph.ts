@@ -8,6 +8,7 @@ export const Paragraph = styled.p`
     color: #1C1C1C;
     font-size: 24px;
     line-height: 44px;
+    padding: 0 8rem;
 
     strong {
         font-weight: 700;

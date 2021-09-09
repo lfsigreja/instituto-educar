@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
 
+import Contribua from "./views/Contribua";
 import Home from "./views/Home/home";
 import Quemsomos from "./views/quem-somos/quemsomos";
 
@@ -24,7 +25,7 @@ const Router: React.FC = () => {
                     <Route path='/quem-somos' component={Quemsomos} />
                     <Route path='/contato' component={Home} />
                     <Route path='/blog' component={Home} />
-                    <Route path='/contribua' component={Home} />
+                    <Route path='/contribua' component={Contribua} />
                     <Route path='/quero-ser-voluntario' component={Home} />
                     <Route path='/quero-ser-aluno' component={Quemsomos} />
                 </Switch>

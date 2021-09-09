@@ -5,11 +5,12 @@ import Menino from '../../assets/menino.svg'
 import Menina from '../../assets/menina.svg'
 
 import { Container } from './styles';
+import { Title } from '../../styles/title';
 
 const Contribua: React.FC = () => {
   return (
     <Container>
-        <h1>COMO CONTRIBUIR</h1>
+        <Title>COMO CONTRIBUIR</Title>
         <div className='contribute-btn'>
             <Link to='/quero-ser-voluntario'>
                 <img  src={Menino} alt="Quero ser voluntário"/>
@@ -20,7 +21,7 @@ const Contribua: React.FC = () => {
                 QUERO SER <br />ALUNO
             </Link>
         </div>
-        <h1>AJUDE DE OUTRAS FORMAS</h1>
+        <Title>AJUDE DE OUTRAS FORMAS</Title>
         <div className='contribute-donate'>
             <p>Para fazer parte deste propósito, sua ajuda como doador é de grande importância. Para isso, disponibilizamos a chave PIX e QR Code. Todos os valores doados serão utilizados para o funcionamento da ONG e aporte das crianças e jovens estudantes.  </p>
             <p>Sua participação é essencial para fazer o projeto crescer! Estamos em constante processo de melhoria e contamos com você para isso. Sugestões, parcerias ou mais informações, pode entrar em contato Direct do Instagram, ou por Whatsapp.</p>

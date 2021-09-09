@@ -22,4 +22,15 @@ export const Paragraph = styled.p`
         list-style-type: upper-alpha;
         padding-left: 30px;
     }
+
+    dt {
+    font-weight: 700;
+    text-decoration: underline;
+    padding: .5em;
+    }
+
+    dd {
+        margin: 0;
+        padding-left: 1em;
+    }
 `;

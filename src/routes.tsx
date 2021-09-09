@@ -8,6 +8,7 @@ import Header from "./components/Header/header";
 import Contribua from "./views/Contribua";
 import Home from "./views/Home/home";
 import Quemsomos from "./views/quem-somos/quemsomos";
+import queroSerAluno from "./views/queroSerAluno";
 import queroSerVoluntario from "./views/queroSerVoluntario";
 
 const Page = styled.div`
@@ -28,7 +29,7 @@ const Router: React.FC = () => {
                     <Route path='/blog' component={Home} />
                     <Route path='/contribua' component={Contribua} />
                     <Route path='/quero-ser-voluntario' component={queroSerVoluntario} />
-                    <Route path='/quero-ser-aluno' component={Quemsomos} />
+                    <Route path='/quero-ser-aluno' component={queroSerAluno} />
                 </Switch>
                 <Footer />
             </BrowserRouter>

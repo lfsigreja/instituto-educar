@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ParagraphTitle = styled.div`
+export const ParagraphTitle = styled.h2`
     font-family: "Asap", sans-serif;
     font-weight: 700;
     text-align: justify;

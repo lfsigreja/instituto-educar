@@ -15,15 +15,4 @@ export const Container = styled.div`
       margin-top: 150px;
       margin-bottom: 70px;
   }
-
-  .btn {
-      background: #FFF069;
-      text-decoration: 0;
-      color: #1C1C1C;
-      font-family: "Asap", sans-serif;
-      font-weight: 700;
-      font-size: 2rem;
-      padding: 34px 135px;
-  }
-
 `;

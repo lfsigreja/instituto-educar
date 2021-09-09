@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Menino from '../../assets/menino.png'
 import Menina from '../../assets/menina.png'
+import QRcode from '../../assets/QRcode.png'
 
 import { Container } from './styles';
 import { Title } from '../../styles/title';
@@ -60,7 +61,7 @@ const Contribua: React.FC = () => {
                 </div>
                 <div>
                     <div className='contribute-pix__QRCODE'>
-                        <img src='https://www.kaspersky.com.br/content/pt-br/images/repository/isc/2020/9910/a-guide-to-qr-codes-and-how-to-scan-qr-codes-2.png' alt='QRCODE PIX' />
+                        <img src={QRcode} alt='QRCODE PIX' />
                     </div>
                     <h5>DOE ATRAVÉS DO QR CODE</h5>
                 </div>

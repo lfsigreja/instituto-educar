@@ -6,7 +6,7 @@ export const Container = styled.main`
     font-weight:700;
   }
   iframe {
-    padding:8rem;
+    padding:5.5rem;
   }
   h1 {
     display:flex;
@@ -196,11 +196,14 @@ export const Container = styled.main`
   
 }
 .alg {
-  display:flex;
+    display:flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom:-5rem;
+    
   a{
     flex-direction:column;
+    
     
   }
 }

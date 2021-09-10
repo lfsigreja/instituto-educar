@@ -53,7 +53,7 @@ export const Container = styled.main`
 }
    .txt2 {
 
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-family: "Asap";
     font-style: normal;
     line-height: 31px;
@@ -72,7 +72,7 @@ export const Container = styled.main`
     margin-left: 6rem;
     color: #1C1C1C;
     font-size: 25px;
-    margin-bottom: 30px;
+    
   }
   .txtend {
       font-family: "Asap";

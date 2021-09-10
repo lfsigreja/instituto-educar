@@ -22,7 +22,7 @@ export const Container = styled.main`
     letter-spacing: 0.1em;
     margin-left: 6rem;
     color: #FFC404;
-    margin-top: 224;
+    margin-top: 180;
 }
 .sub-text {
   display:flex;
@@ -90,7 +90,7 @@ export const Container = styled.main`
 .img-edc{
   width: 508px;
   height: 734px;
-  margin-top: 260px
+  margin-top: 180px
   
 }
 

@@ -6,6 +6,7 @@ export const Container = styled.footer`
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 1rem;
     
   
     .footer-volunteer {

@@ -1,12 +1,15 @@
 import React from 'react';
+import { BlogPost } from '../../components/BlogPost';
+import { Title } from '../../styles/title';
 
 import { Container } from './styles';
 
 const Blog: React.FC = () => {
     return (
-        <div>
-            <h1>ruahsuirhara</h1>
-        </div>
+        <>
+            <Title>BLOG</Title>
+            <BlogPost />
+        </>
     )
 }
 

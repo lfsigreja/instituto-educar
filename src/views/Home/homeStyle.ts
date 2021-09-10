@@ -2,7 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.main`
   flex-grow: 1;
-
+  strong {
+    font-weight:700;
+  }
+  iframe {
+    padding:8rem;
+  }
   h1 {
     display:flex;
     justify-content: left;
@@ -35,7 +40,7 @@ export const Container = styled.main`
   
 }
 .txt1 {
-    display:flex;
+
     margin-top: 70px;
     margin-bottom: 30px;
     font-family: "Asap";
@@ -44,12 +49,10 @@ export const Container = styled.main`
     margin-left: 6rem;
     color: #1C1C1C;
     font-size: 25px;
-    b {
-      font-weight: bold;
-    }
+
 }
    .txt2 {
-    display:flex;
+
     text-align: left;
 
     margin-bottom: 30px;
@@ -65,7 +68,6 @@ export const Container = styled.main`
 
   }
   .txt3 {
-    display:flex;
     text-align: left;
 
     font-family: "Asap";

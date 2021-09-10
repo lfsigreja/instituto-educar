@@ -26,14 +26,14 @@ const Home: React.FC = () => {
         <h1>Instituto Educar</h1>
         <div className='sub-text'>Espaço de leitura, mediação e formação de leitor.</div>
         <div className="txt1">
-          O Instituto EDUCAR é um espaço para crianças e jovens se unirem por algo maior: a literatura.
+          O Instituto <strong>EDUCAR</strong> é um espaço para crianças e jovens se unirem por algo maior: a literatura.
         </div>
         <div className='txt2'>
 
-        Idealizado por Catarina Assis, especialista em Educação, Pobreza e Desigualdade Social, bibliotecária e escritora, o projeto busca ser um espaço alternativo para leitura, socialização, criatividade e principalmente, diversão através do universo literário.
+        Idealizado por Catarina Assis, especialista em Educação, Pobreza e Desigualdade Social, bibliotecária e escritora, o projeto busca ser um espaço alternativo para leitura, socialização, criatividade e principalmente, <strong>diversão</strong> através do <strong>universo literário</strong>.
        
         </div>
-        <div className="txt3">Buscamos tornar as crianças, nossos pequenos girassóis, personagens de suas próprias histórias!</div>
+        <div className="txt3">Buscamos tornar as crianças, <strong>nossos pequenos girassóis</strong>, personagens de suas próprias histórias!</div>
       </div>
       
 

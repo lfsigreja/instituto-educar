@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
+import Blog from "./views/Blog";
 import Contato from "./views/Contato";
 
 import Contribua from "./views/Contribua";
@@ -27,7 +28,7 @@ const Router: React.FC = () => {
                     <Route path='/' exact component={Home} />
                     <Route path='/quem-somos' component={Quemsomos} />
                     <Route path='/contato' component={Contato} />
-                    <Route path='/blog' component={Home} />
+                    <Route path='/blog' component={Blog} />
                     <Route path='/contribua' component={Contribua} />
                     <Route path='/quero-ser-voluntario' component={queroSerVoluntario} />
                     <Route path='/quero-ser-aluno' component={queroSerAluno} />

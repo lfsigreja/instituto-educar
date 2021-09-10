@@ -18,23 +18,6 @@ export const Container = styled.main`
     margin-left: 6rem;
     color: #FFC404;
 }
-   .home-text {
-    display:flex;
-    text-align: left;
-    width: 603px;
-    height: 362px;
-
-    margin-top: 70px;
-    margin-bottom: 24px;
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 47px;
-    text-align: justify;
-    margin-left: 6rem;
-    color: #1C1C1C;
-  } 
 .sub-text {
   display:flex;
   width: 540px;
@@ -50,13 +33,67 @@ export const Container = styled.main`
   line-height: 23px;
   
 }
+.txt1 {
+  display:flex;
+    text-align: left;
+
+
+    margin-top: 70px;
+    margin-bottom: 45px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 47px;
+    text-align: justify;
+    margin-left: 6rem;
+    color: #1C1C1C;
+    font-size: 25px;
+}
+   .txt2 {
+    display:flex;
+    text-align: left;
+
+    margin-bottom: 45px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 47px;
+    text-align: justify;
+    margin-left: 6rem;
+    color: #1C1C1C;
+    font-size: 25px;
+    
+
+  }
+  .txt3 {
+    display:flex;
+    text-align: left;
+
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 47px;
+    text-align: justify;
+    margin-left: 6rem;
+    color: #1C1C1C;
+    font-size: 25px;
+  }
+  .txtend {
+      font-family: "Asap";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      text-align: justify;
+      color: #1C1C1C;
+      line-height: 47px;
+      margin-left: 6rem;
+    }
+
 .img-edc{
   display:flex;
   text-align: left;
 }
-p {
-  margin-bottom: 24px;
-}
+
 .join {
   display:flex;
   align-items: center;
@@ -67,7 +104,7 @@ p {
   flex-direction: column;
 }
 .atv {
-  margin-top: 220;
+  margin-top: 260;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,9 +121,10 @@ p {
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 223;
 }
 .cntittle {
-  margin-top: 297;
+  
   font-family: "Asap";
   font-style: normal;
   font-weight: bold;
@@ -122,11 +160,11 @@ p {
   }
   .border1{
     border-right : solid 3px #868686;
-    padding: 0 100px
+    padding: 0 50px
   }
   .border2{
     border-left : solid 3px #868686;
-    padding: 0 100px
+    padding: 0 50px
   }
 }
 .namectn {
@@ -135,6 +173,7 @@ p {
 
 .tltact {
   margin-top: 220;
+  margin-bottom: 158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,11 +185,23 @@ p {
   color: #FFC404;
 }
 .retangulo {
+  
   display:flex;
   flex-direction: column;
   justify-content: center;
-  background-color:#868686 !important;
+  background-color:#EEEEEE;
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
+  padding: 100;
+  
+}
+.alg {
+  display:flex;
+    align-items: center;
+    justify-content: space-around;
+  a{
+    flex-direction:column;
+    
+  }
 }
 `;

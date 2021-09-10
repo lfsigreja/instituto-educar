@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container } from './homeStyle';
+import { ContactIcon } from '../../styles/contactIcon';
+
+
 import educar2 from '../../assets/educar2.png'
 import edc from '../../assets/edc.png';
 import lta from '../../assets/lta.png';
@@ -10,7 +13,8 @@ import insta from '../../assets/insta-icon.png'
 import email from '../../assets/email-icon.png'
 import whatsapp from '../../assets/whatsapp-icon.png'
 import youtube from '../../assets/youtube-icon.png'
-import { ContactIcon } from '../../styles/contactIcon';
+
+
 
 const Home: React.FC = () => {
   return (

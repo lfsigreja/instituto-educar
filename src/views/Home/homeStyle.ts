@@ -17,6 +17,7 @@ export const Container = styled.main`
     letter-spacing: 0.1em;
     margin-left: 6rem;
     color: #FFC404;
+    margin-top: 224;
 }
 .sub-text {
   display:flex;
@@ -34,26 +35,24 @@ export const Container = styled.main`
   
 }
 .txt1 {
-  display:flex;
-    text-align: left;
-
-
+    display:flex;
     margin-top: 70px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     font-family: "Asap";
-    font-style: normal;
-    font-weight: normal;
     line-height: 47px;
     text-align: justify;
     margin-left: 6rem;
     color: #1C1C1C;
     font-size: 25px;
+    b {
+      font-weight: bold;
+    }
 }
    .txt2 {
     display:flex;
     text-align: left;
 
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     font-family: "Asap";
     font-style: normal;
     font-weight: normal;
@@ -77,6 +76,7 @@ export const Container = styled.main`
     margin-left: 6rem;
     color: #1C1C1C;
     font-size: 25px;
+    margin-bottom: 30px;
   }
   .txtend {
       font-family: "Asap";
@@ -87,11 +87,15 @@ export const Container = styled.main`
       color: #1C1C1C;
       line-height: 47px;
       margin-left: 6rem;
+      margin-right: 6rem;
+      margin-bottom: 150px;
     }
 
 .img-edc{
   display:flex;
-  text-align: left;
+  width: 608px;
+  height: 734px;
+  margin-top: 80px
 }
 
 .join {
@@ -104,7 +108,6 @@ export const Container = styled.main`
   flex-direction: column;
 }
 .atv {
-  margin-top: 260;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,9 +117,10 @@ export const Container = styled.main`
   font-size: 3rem;
   letter-spacing: 0.355em;
   color: #FFC404;
+  margin-bottom: 150px;
 }
 .imgsml {
-  margin-top: 209;
+
   display:flex;
   align-items: center;
   flex-direction: row;

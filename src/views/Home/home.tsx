@@ -3,7 +3,7 @@ import { Container } from './homeStyle';
 import { ContactIcon } from '../../styles/contactIcon';
 
 
-import educar2 from '../../assets/educar2.png'
+import educar2 from '../../assets/educar 2.png'
 import edc from '../../assets/edc.png';
 import lta from '../../assets/lta.png';
 import msc from '../../assets/msc.png';
@@ -30,7 +30,7 @@ const Home: React.FC = () => {
         </div>
         <div className='txt2'>
 
-        Idealizado por Catarina Assis, especialista em Educação, Pobreza e Desigualdade Social, bibliotecária e escritora, o projeto busca ser um espaço alternativo para leitura, socialização, criatividade e principalmente, <strong>diversão</strong> através do <strong>universo literário</strong>.
+        Idealizado por Catarina Assis, especialista em Educação, Pobreza e Desigualdade Social, bibliotecária e escritora, o projeto busca ser um espaço alternativo para leitura, socialização, criatividade e principalmente, <strong>diversão</strong> através  do <strong>universo literário</strong>.
        
         </div>
         <div className="txt3">Buscamos tornar as crianças, <strong>nossos pequenos girassóis</strong>, personagens de suas próprias histórias!</div>

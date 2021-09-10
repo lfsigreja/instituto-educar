@@ -42,10 +42,10 @@ export const Container = styled.main`
 .txt1 {
 
     margin-top: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-family: "Asap";
-    line-height: 47px;
-    text-align: justify;
+    line-height: 31px;
+    text-align: justify !important; 
     margin-left: 6rem;
     color: #1C1C1C;
     font-size: 25px;
@@ -53,13 +53,10 @@ export const Container = styled.main`
 }
    .txt2 {
 
-    text-align: left;
-
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-family: "Asap";
     font-style: normal;
-    font-weight: normal;
-    line-height: 47px;
+    line-height: 31px;
     text-align: justify;
     margin-left: 6rem;
     color: #1C1C1C;
@@ -68,12 +65,9 @@ export const Container = styled.main`
 
   }
   .txt3 {
-    text-align: left;
-
     font-family: "Asap";
     font-style: normal;
-    font-weight: normal;
-    line-height: 47px;
+    line-height: 31px;
     text-align: justify;
     margin-left: 6rem;
     color: #1C1C1C;
@@ -87,17 +81,17 @@ export const Container = styled.main`
       font-size: 25px;
       text-align: justify;
       color: #1C1C1C;
-      line-height: 47px;
+      line-height: 31px;
       margin-left: 6rem;
       margin-right: 6rem;
       margin-bottom: 150px;
     }
 
 .img-edc{
-  display:flex;
-  width: 608px;
+  width: 508px;
   height: 734px;
-  margin-top: 80px
+  margin-top: 260px
+  
 }
 
 .join {

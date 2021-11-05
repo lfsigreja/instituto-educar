@@ -37,10 +37,12 @@ const Home: React.FC = () => {
       </div>
       
 
-      <div className='img-edc'>
-        <img  src={educar2} alt="Instituto Educar"/>
-      </div>
-      
+  
+        <div className='img-edc'>
+          <img  src={educar2} alt="Instituto Educar"/>
+        </div>
+  
+
       </div>
 
       <div className="txtend">

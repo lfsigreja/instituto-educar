@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.footer`
-    background-color: #FFF069;
+    
+
+    .container {
+        background-color: #FFF069;
     height: 16rem;
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 1rem;
+    }
     
   
     .footer-volunteer {
@@ -43,5 +48,19 @@ export const Container = styled.footer`
         font-family: 'Asap', sans-serif;
         font-size: 20px;
         width: 400px;
+    }
+    @media(max-width:1020px){
+        .footer-volunteer{
+            
+        }
+        .footer__address{
+            
+        }
+        .footer__edu-img{
+            
+        }
+        .container{
+            width: 60rem;
+        }
     }
 `;

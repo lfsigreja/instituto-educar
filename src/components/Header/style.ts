@@ -51,4 +51,35 @@ export const NavBar = styled.header`
         padding: 15px;
         border-radius: 15px;
     }
+    @media(max-width:1020px){
+        .contribute{
+            width: 50%;
+        }
+        .header-logo{
+            padding: 10%;
+        }
+        .header-menu{
+            font-size: 70%;
+            margin-inline-end: -10rem;
+        }
+        .header-menu__link{
+
+        }
+        
+    }
+    @media(max-width:480px){
+        .contribute{
+            width: 50%;
+        }
+        .header-logo{
+            padding: 5%;
+        }
+        .header-menu{
+            font-size: 100%;
+            margin-inline-end: -30rem;
+        }
+        .header-menu__link{
+
+        }
+    }
 `;
